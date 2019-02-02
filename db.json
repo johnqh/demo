@@ -1,14 +1,194 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+{  
+  "levels":[  
+      {  
+          "id":10,
+          "title":"Basics",
+          "techniques":[  
+              {  
+                  "id":1500,
+                  "title":"Full House"
+              }
+          ]
+      },
+      {  
+          "id":20,
+          "title":"Easy",
+          "techniques":[  
+              {  
+                  "id":2300,
+                  "title":"Hidden Single"
+              },
+              {  
+                  "id":2600,
+                  "title":"Naked Single"
+              }
+          ]
+      },
+      {  
+          "id":30,
+          "title":"Moderate",
+          "techniques":[  
+              {  
+                  "id":3200,
+                  "title":"Hidden Pair"
+              },
+              {  
+                  "id":3400,
+                  "title":"Naked Pair"
+              },
+              {  
+                  "id":3700,
+                  "title":"Locked Candidates"
+              }
+          ]
+      },
+      {  
+          "id":40,
+          "title":"Challenging",
+          "techniques":[  
+              {  
+                  "id":4100,
+                  "title":"Hidden Triple"
+              },
+              {  
+                  "id":4300,
+                  "title":"Hidden Quad"
+              },
+              {  
+                  "id":4500,
+                  "title":"X-Wing"
+              },
+              {  
+                  "id":4700,
+                  "title":"Naked Triple"
+              },
+              {  
+                  "id":4900,
+                  "title":"Naked Quad"
+              }
+          ]
+      },
+      {  
+          "id":50,
+          "title":"Difficult",
+          "techniques":[  
+              {  
+                  "id":5100,
+                  "title":"Swordfish"
+              },
+              {  
+                  "id":5300,
+                  "title":"Jellyfish"
+              },
+              {  
+                  "id":5600,
+                  "title":"XY-Wing"
+              },
+              {  
+                  "id":5800,
+                  "title":"Finned XY-Wing"
+              }
+          ]
+      },
+      {  
+          "id":60,
+          "title":"Expert",
+          "techniques":[  
+              {  
+                  "id":6100,
+                  "title":"Squirmbag"
+              },
+              {  
+                  "id":6300,
+                  "title":"Finned Swordfish"
+              },
+              {  
+                  "id":6500,
+                  "title":"Finned Jellyfish"
+              },
+              {  
+                  "id":6700,
+                  "title":"XYZ-Wing"
+              },
+              {  
+                  "id":6900,
+                  "title":"WXYZ-Wing"
+              }
+          ]
+      },
+      {  
+          "id":70,
+          "title":"Extreme",
+          "techniques":[  
+              {  
+                  "id":7300,
+                  "title":"Almost Locked Sets"
+              },
+              {  
+                  "id":7600,
+                  "title":"Finned Squirmbag"
+              }
+          ]
+      },
+      {  
+          "id":80,
+          "title":"Brain Freeze",
+          "techniques":[  
+              {  
+                  "id":8500,
+                  "title":"ALS-Chain"
+              }
+          ]
+      }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "game":[  
+      {  
+          "original":"000070609000000010001040000045000020060085100200001030710000248030002050000000000",
+          "level":3,
+          "points":56
+      }
   ],
-  "profile": {
-    "name": "typicode"
+  "subscriptions":[  
+      {  
+          "id":1,
+          "title":"VIP",
+          "period":"<null>",
+          "period_unit":"<null>",
+          "price":"<null>",
+          "visible":0
+      },
+      {  
+          "id":2,
+          "title":"Monthly",
+          "period":"1",
+          "period_unit":"m",
+          "price":"$9.95",
+          "visible":1
+      },
+      {  
+          "id":3,
+          "title":"Quarterly",
+          "period":"3",
+          "period_unit":"m",
+          "price":"$19.95",
+          "visible":1
+      },
+      {  
+          "id":4,
+          "title":"Yearly",
+          "period":"12",
+          "period_unit":"m",
+          "price":"$39.95",
+          "visible":1
+      }
+  ],
+  "user":{  
+      "first_name":"John",
+      "last_name":"Huang",
+      "level":4,
+      "points":5609,
+      "subscription":10,
+      "subscripation_start":"2001-09-08",
+      "subscripation_end":"2020-09-09"
   }
 }
