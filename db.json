@@ -30,6 +30,7 @@
           "key":"30",
           "level":3,
           "title":"Moderate",
+          "access":1,
           "techniques":[  
               {  
                   "key":"3200",
@@ -49,6 +50,7 @@
           "key":"40",
           "level":4,
           "title":"Challenging",
+          "access":1,
           "techniques":[  
               {  
                   "key":"4100",
@@ -76,6 +78,7 @@
           "key":"50",
           "level":5,
           "title":"Difficult",
+          "access":2,
           "techniques":[  
               {  
                   "key":"5100",
@@ -99,6 +102,7 @@
           "key":"60",
           "level":6,
           "title":"Expert",
+          "access":2,
           "techniques":[  
               {  
                   "key":"6100",
@@ -126,6 +130,7 @@
           "key":"70",
           "level":7,
           "title":"Extreme",
+          "access":2,
           "techniques":[  
               {  
                   "key":"7300",
@@ -141,6 +146,7 @@
           "key":"80",
           "level":8,
           "title":"Brain Freeze",
+          "access":2,
           "techniques":[  
               {  
                   "key":"8500",
@@ -156,10 +162,24 @@
           "points":56
       }
   ],
+  "access":[
+      {
+          "key":0,
+          "title":"Public"
+      },
+      {
+          "key":1,
+          "title":"Free membership required"
+      },
+      {
+          "key":2,
+          "title":"Paid membership required"
+      }
+  ],
   "subscriptions":[  
       {  
           "key":"1",
-          "title":"VIP",
+          "title":"Free",
           "period":"<null>",
           "period_unit":"<null>",
           "price":"<null>",
@@ -193,9 +213,11 @@
   "user":{  
       "first_name":"John",
       "last_name":"Huang",
+      "email":"johnqh@yahoo.com",
+      "access":1,
       "level":"4",
       "points":5609,
-      "subscription":10,
+      "subscription":1,
       "subscripation_start":"2001-09-08",
       "subscripation_end":"2020-09-09"
   }
